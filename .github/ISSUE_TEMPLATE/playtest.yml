@@ -1,0 +1,55 @@
+name: Playtest feedback
+description: You played a bit. How did it feel?
+title: "Playtest: "
+labels: ["playtest"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for playing! Short answers are perfect. Skip anything you like. English or Dutch, both fine.
+  - type: input
+    id: played
+    attributes:
+      label: How long did you play, and how far did you get?
+      placeholder: "About 40 minutes, went bankrupt in 1986"
+  - type: textarea
+    id: stopped
+    attributes:
+      label: When did you stop, and why?
+      description: Bored, stuck, out of money, out of time, dinner... all useful.
+    validations:
+      required: true
+  - type: textarea
+    id: laughed
+    attributes:
+      label: What made you laugh, or what did you enjoy?
+  - type: textarea
+    id: confused
+    attributes:
+      label: Where were you confused or stuck?
+  - type: textarea
+    id: unfair
+    attributes:
+      label: Did anything feel unfair?
+  - type: dropdown
+    id: again
+    attributes:
+      label: Would you play the next era?
+      options:
+        - "Yes, when is it out?"
+        - "Probably"
+        - "Not sure"
+        - "Probably not"
+        - "No"
+  - type: textarea
+    id: runs
+    attributes:
+      label: Your runs file
+      description: |
+        Title screen → **Your runs** → **Download all runs**, then drag the `.json` file here (zip it if GitHub refuses it).
+        It lets me replay your game click by click. Unfinished games are in it too.
+  - type: input
+    id: setup
+    attributes:
+      label: Browser and device
+      placeholder: "Chrome on a MacBook, Firefox on Windows..."

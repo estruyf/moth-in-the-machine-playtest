@@ -1,0 +1,33 @@
+name: Bug report
+description: Something broke. A real bug, not one of the game's moths.
+title: "Bug: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A screenshot helps a lot.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+  - type: input
+    id: when
+    attributes:
+      label: Where in the game?
+      placeholder: "PC era, 1984, just after hiring my fifth person"
+  - type: textarea
+    id: runs
+    attributes:
+      label: Your runs file
+      description: |
+        Title screen → **Your runs** → **Download all runs**, then drag the `.json` file here (zip it if GitHub refuses it).
+        With it I can replay your game up to the bug.
+  - type: input
+    id: setup
+    attributes:
+      label: Browser and device
+      placeholder: "Safari on an iPad, Edge on Windows..."
