@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/estruyf/moth-in-the-machine-playtest/discussions
     about: Ideas, stories from your company, or anything that isn't a bug or feedback form.
   - name: Play the game
-    url: https://estruyf.github.io/moth-in-the-machine-playtest/
+    url: https://moth-in-the-machine.pages.dev/
     about: The latest playtest build, in your browser.

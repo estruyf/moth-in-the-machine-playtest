@@ -4,7 +4,7 @@
 
 A small tycoon game about running a software company, from punch cards to beige PCs. Real history, silly staff, plenty of bugs. Some of them on purpose.
 
-**▶ [Play it in your browser](https://estruyf.github.io/moth-in-the-machine-playtest/)**
+**▶ [Play it in your browser](https://moth-in-the-machine.pages.dev/)**
 
 Free, nothing to install. Your games are saved in your browser.
 
@@ -41,4 +41,4 @@ The later eras (internet, cloud, AI) aren't built yet.
 
 ---
 
-The source lives in a private repo for now. This one only holds the playable build and your feedback.
+The source lives in a private repo for now. This one is for your feedback.
