@@ -27,6 +27,12 @@ body:
         Title screen → **Your runs** → **Download all runs**, then drag the `.json` file here (zip it if GitHub refuses it).
         With it I can replay your game up to the bug.
   - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Filled in when you come from the game. Otherwise it's in the bottom right of the title screen.
+      placeholder: "0.6.0"
+  - type: input
     id: setup
     attributes:
       label: Browser and device

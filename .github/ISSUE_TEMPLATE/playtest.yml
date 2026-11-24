@@ -49,6 +49,12 @@ body:
         Title screen → **Your runs** → **Download all runs**, then drag the `.json` file here (zip it if GitHub refuses it).
         It lets me replay your game click by click. Unfinished games are in it too.
   - type: input
+    id: version
+    attributes:
+      label: Game version
+      description: Filled in when you come from the game. Otherwise it's in the bottom right of the title screen.
+      placeholder: "0.6.0"
+  - type: input
     id: setup
     attributes:
       label: Browser and device
